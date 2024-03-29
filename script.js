@@ -1,8 +1,8 @@
 const board = document.getElementById('board');
-const statusMessage = document.getElementById('status-message');
-const player1ScoreDisplay = document.getElementById('player1-score');
-const player2ScoreDisplay = document.getElementById('player2-score');
-const newGameButton = document.getElementById('new-game-button');
+const statusMessage = document.getElementById('message');
+const player1ScoreDisplay = document.getElementById('player1');
+const player2ScoreDisplay = document.getElementById('player2');
+const newGameButton = document.getElementById('newgame');
 
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
